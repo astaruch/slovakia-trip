@@ -29,7 +29,7 @@ const Home: FC = (props) => {
       <FolkImage />
       <HomeWrapper>
         <Head>
-          <title>CryptoMood</title>
+          <title>Slovakia trip</title>
         </Head>
         <Header2>Slovakia trip</Header2>
         <Header5>feat. Køppaku Rhïev & friends</Header5>
