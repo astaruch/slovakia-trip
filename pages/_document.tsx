@@ -40,22 +40,8 @@ div {
 transition: opacity 0.2s ease-in-out;
 }
 
-.slick-slide {
-opacity: 0.52;
-padding: 0 1rem;
-}
-
-.slick-current {
-opacity: 1;
-}
-
-.slick-dots {
-  > li > button:before {
-    color: white;
-  }
-  > li.slick-active > button:before {
-    color: white;
-  }
+.vertical-timeline-element-date {
+color: black;
 }
 
 `;

@@ -81,7 +81,7 @@ const PartnerButton = styled.button`
   border-radius: 0.5rem;
   background: ${({ theme }) => theme.color.gray100};
   border: 1px solid ${({ theme }) => theme.color.gray100};
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.black};
   height: 5.5rem;
   width: 20rem;
   cursor: pointer;

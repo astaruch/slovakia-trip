@@ -2,10 +2,7 @@
 import { ThemeProvider } from "styled-components";
 import { DarkTheme } from "styles/theme";
 import Head from "next/head";
-import Header from "components/common/Header";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "pure-react-carousel/dist/react-carousel.es.css";
+import "react-vertical-timeline-component/style.min.css";
 
 const MyApp = ({ Component, pageProps }) => (
   <>
@@ -17,7 +14,6 @@ const MyApp = ({ Component, pageProps }) => (
       />
     </Head>
     <ThemeProvider theme={DarkTheme}>
-      <Header />
       <Component {...pageProps} />
     </ThemeProvider>
   </>

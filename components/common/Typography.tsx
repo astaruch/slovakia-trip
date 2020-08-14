@@ -9,7 +9,8 @@ export const Header2 = styled.h2`
   align-items: center;
   text-align: center;
   letter-spacing: -0.09375rem;
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.black};
+  margin-bottom: 0;
 `;
 
 export const Header3 = styled.h3`
@@ -18,7 +19,7 @@ export const Header3 = styled.h3`
   font-size: 3rem;
   line-height: 3.5rem;
   letter-spacing: -0.03125rem;
-  color: ${({ theme }) => theme.color.gray0};
+  color: ${({ theme }) => theme.color.gray50};
 `;
 
 export const Header5 = styled.h5`
@@ -27,7 +28,21 @@ export const Header5 = styled.h5`
   font-size: 1.5rem;
   line-height: 2.25rem;
   text-align: center;
+  color: ${({ theme }) => theme.color.gray50};
+  margin-top: 0;
+  margin-bottom: 0;
+`;
+
+export const Header6 = styled.h6`
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  text-align: center;
   color: ${({ theme }) => theme.color.white};
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: start;
 `;
 
 export const ParagraphHuge = styled.p`

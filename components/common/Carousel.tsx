@@ -123,7 +123,7 @@ const CarouselItemText = styled(ParagraphMedium)`
 `;
 
 const CarouselItemFooter = styled(ParagraphSmall)`
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.black};
   bottom: 0;
   margin-bottom: 2rem;
 `;
