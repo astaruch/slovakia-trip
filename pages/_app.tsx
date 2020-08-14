@@ -1,4 +1,3 @@
-// import '../styles/globals.css'
 import { ThemeProvider } from "styled-components";
 import { DarkTheme } from "styles/theme";
 import Head from "next/head";

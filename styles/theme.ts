@@ -16,6 +16,7 @@ export const DarkTheme = {
     gray0: "#F9F9FA",
     red: "#f44336",
     blue: "#2194f3",
+    darkBlue: "#302c43",
   },
 };
 

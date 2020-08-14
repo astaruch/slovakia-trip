@@ -33,7 +33,7 @@ const Home: FC = (props) => {
         </Head>
         <Header2>Slovakia trip</Header2>
         <Header5>feat. Køppaku Rhïev & friends</Header5>
-        <ParagraphHuge>16.8. - 23.8. 2020</ParagraphHuge>
+        <ParagraphHuge>23.8. - 30.8. 2020</ParagraphHuge>
         <WaveWrapper>
           <WaveImage src={Wave} />
         </WaveWrapper>
@@ -41,7 +41,7 @@ const Home: FC = (props) => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
             date="23.8."
             iconStyle={{ background: "#302c43", color: "#fff" }}
             icon={<AirportShuttleIcon />}
@@ -60,6 +60,15 @@ const Home: FC = (props) => {
             <ParagraphTestimonial>
               Cestou prípustná zastávka v priľahlých parkoch na kratšiu túru. V
               skorých večerných hodinách príjazd na chatu.
+            </ParagraphTestimonial>
+            <ParagraphTestimonial>
+              <TimelineLink
+                target="_blank"
+                href="https://www.booking.com/hotel/sk/chata-telgart.sk.html"
+              >
+                Odkaz
+              </TimelineLink>
+              na chatu.
             </ParagraphTestimonial>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -200,6 +209,14 @@ const Home: FC = (props) => {
 };
 
 export default Home;
+
+const TimelineLink = styled.a`
+  margin-right: 5px;
+
+  &:hover {
+    color: ${({ theme }) => theme.color.darkBlue};
+  }
+`;
 
 const PageWrapper = styled.main`
   background: ${({ theme }) => theme.color.white};

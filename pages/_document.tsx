@@ -24,7 +24,6 @@ p {
 
 a {
   color: inherit;
-  text-decoration: none;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
