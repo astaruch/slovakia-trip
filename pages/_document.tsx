@@ -83,25 +83,25 @@ export default class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href="/public/fonts/Averta-Regular.otf"
+            href="/Averta-Regular.otf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/public/fonts/Averta-Bold.otf"
+            href="/Averta-Bold.otf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/public/fonts/Averta-Light.otf"
+            href="/Averta-Light.otf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/public/fonts/Averta-Black.otf"
+            href="/Averta-Black.otf"
             as="font"
             crossOrigin=""
           />

@@ -241,10 +241,10 @@ const FolkImage = styled.div`
   }
 `;
 
-const HomeWrapper = styled.main`
+const HomeWrapper = styled.div`
   background: ${({ theme }) => theme.color.white};
   min-height: 100vh;
-  padding: 5rem 0;
+  padding: 0;
   display: flex;
   flex: 1;
   flex-direction: column;
